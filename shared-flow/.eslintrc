@@ -1,0 +1,56 @@
+{
+  "extends": ["plugin:flowtype/recommended", "prettier/flowtype", "prettier", "prettier/standard"],
+  "plugins": ["prettier", "flow", "jsx-a11y", "flowtype"],
+  "rules": {
+    "flowtype/require-valid-file-annotation": [
+      2,
+      "always"
+    ],
+    "flowtype/no-types-missing-file-annotation": 2,
+    "flowtype/space-before-type-colon": [
+      2,
+      "always"
+    ],
+    "flowtype/space-after-type-colon": [
+      2,
+      "always"
+    ],
+    "eqeqeq": [2, "allow-null"],
+    "new-cap": 0,
+    "no-underscore-dangle": 0,
+    "no-else-return": 0,
+    "spaced-comment": 0,
+    "no-plusplus": 0,
+    "no-confusing-arrow": 0,
+    "no-shadow": 0,
+    "consistent-return": 0,
+    "no-nested-ternary": 0,
+    "use-isnan": 1,
+    "prefer-destructuring": 0,
+    "no-mixed-operators": 0,
+    "import/newline-after-import": 0,
+    "object-curly-newline": 0,
+    "function-paren-newline": 0,
+    "import/prefer-default-export": 0,
+    "no-lonely-if": 0,
+    "no-restricted-globals": 0,
+    "no-undef": 0,
+    "jsx-a11y/label-has-for": 0,
+    "jsx-a11y/click-events-have-key-events": 0,
+    "jsx-a11y/anchor-is-valid": 0,
+    "import/no-extraneous-dependencies" : 0,
+    "import/imports-first": 0,
+    "import/no-named-as-default-member": 0,
+    "import/no-named-as-default": 0,
+    "object-property-newline": 0,
+    "arrow-parens": 0,
+    "import/first": 0,
+    "no-restricted-syntax": 0,
+    "class-methods-use-this": 0,
+    "no-restricted-properties": 0,
+    "no-console": ["warn", { "allow": ["warn", "error"] }],
+    "jsx-a11y/no-static-element-interactions": 0,
+    "jsx-a11y/alt-text": 0,
+    "jsx-a11y/media-has-caption": 0
+  }
+}

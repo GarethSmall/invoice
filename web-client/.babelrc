@@ -1,0 +1,26 @@
+{
+  "presets": [
+    ["env", {
+      "modules": false,
+      "useBuiltIns": "entry"
+    }],
+    "stage-2",
+    "react",
+    "flow"
+  ],
+  "env": {
+    "test": {
+      "plugins": ["transform-es2015-modules-commonjs"]
+    }
+  },
+  "plugins": [
+    "react-hot-loader/babel",
+    "transform-decorators-legacy",
+    ["module-resolver", {
+      "alias": {
+        "shared-flow": "../shared-flow",
+        "shared-redux": "../shared-redux"
+      }
+    }]
+  ]
+}

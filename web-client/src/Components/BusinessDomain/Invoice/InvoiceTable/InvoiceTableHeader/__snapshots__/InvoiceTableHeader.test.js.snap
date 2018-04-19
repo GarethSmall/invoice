@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`InvoiceTableHeader should render 1`] = `
+<thead>
+  <tr>
+    <th>
+      Item
+    </th>
+    <th>
+      Qty
+    </th>
+    <th>
+      Price
+    </th>
+    <th>
+      Total
+    </th>
+    <th>
+      Edit
+    </th>
+    <th>
+      Delete
+    </th>
+  </tr>
+</thead>
+`;

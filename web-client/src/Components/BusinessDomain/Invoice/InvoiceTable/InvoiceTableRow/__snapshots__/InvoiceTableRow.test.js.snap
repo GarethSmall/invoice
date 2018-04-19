@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`InvoiceTableRow should render 1`] = `
+<tr>
+  <td>
+    Test T-shirt
+  </td>
+  <td>
+    2
+  </td>
+  <td>
+    $32.00
+  </td>
+  <td>
+    $64.00
+  </td>
+  <td>
+    <button>
+      Edit
+    </button>
+  </td>
+  <td>
+    <button>
+      Delete
+    </button>
+  </td>
+</tr>
+`;

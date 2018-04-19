@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`InvoiceTable should render 1`] = `
+<table>
+  <InvoiceTableHeader />
+  <tbody>
+    <InvoiceTableRow
+      item={
+        Object {
+          "_id": "1",
+          "order": "1",
+          "price": 64,
+          "product": Object {
+            "_id": "1",
+            "name": "Test T-shirt",
+            "price": 32,
+          },
+          "quantity": 2,
+        }
+      }
+      key="1"
+    />
+    <InvoiceTableRow
+      item={
+        Object {
+          "_id": "2",
+          "order": "1",
+          "price": 150,
+          "product": Object {
+            "_id": "2",
+            "name": "Test Jeans",
+            "price": 75,
+          },
+          "quantity": 2,
+        }
+      }
+      key="2"
+    />
+  </tbody>
+</table>
+`;
