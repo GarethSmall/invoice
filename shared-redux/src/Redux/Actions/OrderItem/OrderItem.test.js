@@ -69,7 +69,7 @@ describe('OrderItem Action', () => {
      * most likely be dynamic if it were an error/success
      */
     const expectedAction = {
-      type: ActionTypes.OrderItem.EDIT_ORDER_ITEM,
+      type: ActionTypes.OrderItem.DELETE_ORDER_ITEM,
       payload: {
         message: 'You have successfully deleted an order item.',
         orderItemId: '1'
